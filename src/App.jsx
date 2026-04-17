@@ -99,16 +99,16 @@ export default function App() {
         fontFamily: "sans-serif",
       }}
     >
-      {/* header */}
+ 
       <h1 style={{ fontSize: 20, fontWeight: 500, marginBottom: 2 }}>
-        Wi-Fi Cable Layout — Chandigarh University, Block B1, Floor 3
+        Wi-Fi Cable Layout - Chandigarh University, Block B1, Floor 3
       </h1>
       <p style={{ fontSize: 13, color: "#888", marginBottom: 0 }}>
         Minimum Spanning Tree finds the optimal cable routing to connect all
         rooms with least wire.
       </p>
 
-      {/* Problem Statement Box */}
+      
       <div
         style={{
           background: "#F0F7FF",
@@ -128,19 +128,19 @@ export default function App() {
           Given <strong>N rooms</strong> on a college floor connected to a
           central <strong>Wi-Fi router</strong>, find the{" "}
           <strong>minimum total cable length</strong> required to connect every
-          room to the network — without any redundant (looping) connections.
+          room to the network - without any redundant (looping) connections.
         </div>
         <div style={{ marginTop: 8, color: "#444" }}>
           <strong>Graph model:</strong> Each room is a <em>node</em>. A cable
           between two rooms is an <em>edge</em>
           weighted by the physical distance between them. The solution is the{" "}
           <strong>Minimum Spanning Tree (MST)</strong>
-          of this graph — computed using Kruskal's or Prim's algorithm.
+          of this graph - computed using Kruskal's or Prim's algorithm.
         </div>
         <div style={{ marginTop: 8, color: "#555" }}>
           <strong>Real-world impact:</strong> For a 12-room floor, MST reduces
           cable usage compared to naively connecting every room directly to the
-          router — saving cost and avoiding clutter.
+          router - saving cost and avoiding clutter.
         </div>
       </div>
 
@@ -230,7 +230,7 @@ export default function App() {
           justifyContent: "space-between",
         }}
       >
-        <span>DAA Semester Project — Minimum Spanning Tree</span>
+        <span>DAA Semester Project - Minimum Spanning Tree</span>
       </div>
     </div>
   );
