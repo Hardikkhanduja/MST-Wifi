@@ -230,7 +230,7 @@ export default function App() {
           justifyContent: "space-between",
         }}
       >
-        <span>CC Semester Project - Minimum Spanning Tree</span>
+        <span>DAA Semester Project - Minimum Spanning Tree</span>
       </div>
     </div>
   );
