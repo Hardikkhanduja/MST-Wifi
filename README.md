@@ -1,6 +1,6 @@
 # 📡 Wi-Fi Cable Layout — Minimum Spanning Tree Visualizer
 
-> **DAA Semester Project** -  **Live Demo:** [mst-wifi.vercel.app](https://mst-wifi.vercel.app)
+> **CC Semester Project**
  
 
 ---
